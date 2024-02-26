@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b27199d-228a-4f68-a436-2081ad4a1c9a" name="Changes" comment="Create operation">
+    <list default="true" id="7b27199d-228a-4f68-a436-2081ad4a1c9a" name="Changes" comment="using the decorator">
+      <change beforePath="$PROJECT_DIR$/.idea/Drinks API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Drinks API.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drinks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/drinks/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708968154544</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="using the decorator">
+      <option name="closed" value="true" />
+      <created>1708971561838</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708971561838</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base setup" />
     <MESSAGE value="Create operation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create operation" />
+    <MESSAGE value="using the decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="using the decorator" />
   </component>
 </project>
