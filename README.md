@@ -1,7 +1,12 @@
 
 #  Drinks-API
 
-A Django REST Drinks API Repository for Effortless Beverage Data Integration.
+A Django REST Drinks API for Effortless Beverage Data Integration.
+Performs all CRUDE operations to the Database.
+- CREATE
+- READ
+- UPDATE
+- DELETE
 ## Tech Stack
 
 Python,
@@ -95,4 +100,13 @@ You can test the API with #postman for different endpoints.
 Develop a front end that consumes the API
 
 ```
+
+
+## Lessons Learnt
+
+- Understanding Django and Django REST Framework: It is crucial to have a solid grasp of Django and the Django REST Framework before embarking on API development. This includes familiarity with Django's structure, features, and how the REST framework extends Django's capabilities
+- Efficient API Design: Learning how to design APIs efficiently is key. This involves structuring endpoints, handling data serialization, and ensuring proper authentication and permissions are in place
+- Serialization and Data Handling: Mastering serialization in Django REST Framework is essential for transforming complex data types into native Python data types that can be easily rendered into JSON, XML, or other content types.
+- Testing and Debugging: Testing the API thoroughly during development is crucial. Tools like curl can be used to test API endpoints, ensuring they function as intended. Debugging processes are also vital for identifying and resolving issues effectively.
+- Continuous Learning and Improvement: Staying updated with the latest features and best practices in Django REST API development is essential for continuous improvement and staying competitive in the field.
 
