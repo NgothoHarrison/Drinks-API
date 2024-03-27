@@ -46,6 +46,32 @@ Django
      "description": "Gives you wings."
 } 
 ```
+### UPDATE
+```http
+  PUT drinks/<int:id>
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `int` | **Required**. Id of item to update |
+
+```
+{
+    "id": 8,
+    "name": "Blue Red Bull",
+    "description": "Guess the ingredients that makes you fly"
+}
+```
+### DELETE
+```http
+  DELETE drinks/<int:id>
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `int` | **Required**. Id of item to delete |
+
+
 #### admin
 ```http
 admin/
