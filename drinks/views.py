@@ -19,6 +19,7 @@ def drink_list(request, format=None):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
+
 @api_view(['GET', 'PUT', 'DELETE'])
 def drink_details(request, id, format=None):
     try:
